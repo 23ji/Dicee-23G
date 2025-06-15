@@ -48,6 +48,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Roll"/>
+                                <connections>
+                                    <action selector="rollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="60D-BC-HHn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -57,6 +60,10 @@
                             <constraint firstItem="KbZ-ZP-6oB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="muv-D7-Hol"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstDice" destination="QNz-DH-kp5" id="wPI-1R-ku2"/>
+                        <outlet property="secondDice" destination="9h3-oj-aCE" id="GW4-Ax-wV2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
